@@ -1,0 +1,22 @@
+#promo {
+  text-align: center;
+  padding: 40px;
+}
+
+@media (min-width: 576px) {
+  #promo {
+    padding: 20px;
+  }
+}
+
+#promo .jumbotron {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media (min-width: 576px) {
+  #promo .jumbotron {
+    padding: 20px;
+  }
+}
+
