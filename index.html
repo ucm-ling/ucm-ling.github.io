@@ -20,11 +20,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="manifest" href="manifest.json?h=690db74a777a940e4e26db6b0a225e6a">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/styles.min.css?h=3097734559ee468d3a0d0ced59f79d1c">
+    <link rel="stylesheet" href="assets/css/styles.min.css?h=fa609020f5f253bf6a105c3ab166d776">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
 </head>
 
 <body>
+    <!-- Start: nav -->
     <nav class="navbar navbar-light navbar-expand-md shadow" style="opacity: 1;">
         <div class="container-fluid"><a class="navbar-brand text-truncate" href="index.html"><strong>Linguistics Club</strong>&nbsp;at the University of California, Merced</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div
@@ -37,10 +39,12 @@
         </div>
         </div>
     </nav>
+    <!-- End: nav -->
+    <!-- Start: carousel -->
     <div class="carousel slide" data-ride="carousel" id="carousel-1">
         <div class="carousel-inner" role="listbox">
-            <div class="carousel-item active"><img class="w-100 d-block" src="assets/img/home/splash/splash1.jpg?h=cb92cf34aaa197e89e2fcb5b9aed94db" alt="Slide Image"></div>
-            <div class="carousel-item"><img class="w-100 d-block" src="assets/img/home/splash/splash2.jpg?h=2966f2d8974b20484bb73a22cb6b7478" alt="Slide Image"></div>
+            <div class="carousel-item"><img class="w-100 d-block" src="assets/img/home/splash/splash1.jpg?h=cb92cf34aaa197e89e2fcb5b9aed94db" alt="Slide Image"></div>
+            <div class="carousel-item active"><img class="w-100 d-block" src="assets/img/home/splash/splash2.jpg?h=2966f2d8974b20484bb73a22cb6b7478" alt="Slide Image"></div>
             <div class="carousel-item"><img class="w-100 d-block" src="assets/img/home/splash/splash3.jpg?h=b341e13912ee7efa1d5d6d3e9e7b89ac" alt="Slide Image"></div>
         </div>
         <div>
@@ -50,13 +54,13 @@
             <!-- End: Next -->
         </div>
     </div>
-    <!-- Start: 2 Rows 1+2 Columns -->
+    <!-- End: carousel -->
     <div>
         <div class="container">
             <div class="row">
                 <div class="col-md-12" style="padding-top: 15px;">
-                    <h1 class="text-center">What is linguistics?</h1>
-                    <p class="text-center">In a nutshell, linguistics is the scientific study of language.&nbsp;<br></p>
+                    <h1 class="text-center">What is linguistics?<br></h1>
+                    <p class="lead text-center">In a nutshell, linguistics is the scientific study of language.&nbsp;<br></p>
                 </div>
             </div>
             <div class="row">
@@ -64,10 +68,10 @@
                     <p class="text-left">Linguists are not only polyglots, grammarians, and word lovers. They are researchers dedicated to the systematic study of language who&nbsp;apply the scientific method by making observations, testing hypotheses, and developing theories.&nbsp;The
                         science of language encompasses more than sounds, grammar, and meaning.&nbsp;<br></p>
                     <p class="text-left">When you study linguistics, you are at the crossroads of every discipline.<br></p>
-                    <p class="text-left">When you study linguistics at any level,&nbsp;you gain insight into one of the most fundamental parts of being human- <em>the ability to communicate through language</em>.&nbsp;</p>
+                    <p class="text-left">When you study linguistics,&nbsp;you gain insight into one of the most fundamental parts of being human- <em>the ability to communicate through language</em>.&nbsp;</p>
                     <p style="font-size: 10px;"><em>from the </em><a href="https://www.linguisticsociety.org/"><em>Linguistic Society of America</em></a></p>
                 </div>
-                <div class="col flex-shrink-1">
+                <div class="col flex-shrink-1" data-aos="fade-left" data-aos-duration="900" data-aos-once="true">
                     <figure class="figure"><img class="figure-img d-flex align-self-stretch mx-auto justify-content-xl-center align-items-xl-center" src="assets/img/home/foxp2.png?h=fa6e8e4f1f34d095d8d2baa1f1b47a49" style="width: 410px;">
                         <figcaption class="figure-caption text-center"><strong>Forkhead box protein P2</strong>&nbsp;(<strong>FOXP2</strong>) is a&nbsp;protein&nbsp;that, in humans, is required for proper development of speech and language.</figcaption>
                     </figure>
@@ -75,9 +79,8 @@
             </div>
         </div>
     </div>
-    <!-- End: 2 Rows 1+2 Columns -->
-    <!-- Start: Highlight -->
-    <div class="highlight-phone">
+    <div></div>
+    <div data-aos="slide-left" data-aos-duration="800" data-aos-once="true" class="highlight-phone">
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
@@ -97,23 +100,21 @@
             </div>
         </div>
     </div>
-    <!-- End: Highlight -->
-    <!-- Start: Newsletter -->
-    <div class="newsletter-subscribe">
+    <!-- Start: catlife -->
+    <div data-aos="slide-right" data-aos-duration="800" data-aos-once="true" class="highlight-blue">
         <div class="container">
             <!-- Start: Intro -->
             <div class="intro">
-                <h2 class="text-center">Enroll on CatLife</h2>
-                <p class="text-center">Enter your email to be enrolled on CatLife and stay up to date on meetings, events and more!</p>
+                <h2 class="text-center">Want reminders? Join us on CatLife.</h2>
+                <p class="text-center" style="color: #eef4f7;">In order to get event reminders and news updates, you must be registered on the roster on CatLife.&nbsp;</p>
             </div>
             <!-- End: Intro -->
-            <form class="form-inline" data-bss-recipient="6bf21eac6c166052f59e7aaa3468305f" data-bss-subject="New CatLife Subscription">
-                <div class="form-group"><input class="form-control" type="email" name="email" placeholder="email@ucmerced.edu"></div>
-                <div class="form-group"><button class="btn btn-primary" type="submit">Subscribe </button></div>
-            </form>
+            <!-- Start: Buttons -->
+            <div class="buttons"><a class="btn btn-primary text-capitalize" role="button" data-bs-hover-animate="pulse" href="#">join now</a></div>
+            <!-- End: Buttons -->
         </div>
     </div>
-    <!-- End: Newsletter -->
+    <!-- End: catlife -->
     <!-- Start: footer -->
     <div class="footer-clean">
         <footer>
@@ -161,9 +162,8 @@
     <!-- End: footer -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/smart-forms.min.js?h=1585abf9beaf49802b3a80bf813edceb"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
-    <script src="assets/js/script.min.js?h=2a0d40cabb24d9b4a16bf3644a15df35"></script>
+    <script src="assets/js/script.min.js?h=2dd5f8506909b15728a8a4ccee36bccb"></script>
 </body>
 
 </html>
